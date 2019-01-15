@@ -47,5 +47,5 @@ Some things to do, and ideas for potential features:
 Brought to you by [KR37](https://github.com/kr37/phpEval)
 =======
 # phpEval
-CraftCMS plugin to allow arbitrary PHP in Twig and in a new field type
+CraftCMS plugin to allow arbitrary PHP through a Twig filter
 >>>>>>> 8550690adafcdf872b2b13667e027dfcdb89e88e
