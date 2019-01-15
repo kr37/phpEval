@@ -1,0 +1,42 @@
+{
+    "name": "kr37/php-eval",
+    "description": "1. Adds a twig filter to allow arbitrary PHP in Twig
+2. Adds a twig function to allow arbitrary PHP in Twig
+There are reasons why the authors of Craft and Twig have prevented this, but who doesn't love PHP Eval? Just be careful not to wipe your system.",
+    "type": "craft-plugin",
+    "version": "0.0.1",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "php eval"
+    ],
+    "support": {
+        "docs": "https://github.com/kr37/phpEval/php-eval/blob/master/README.md",
+        "issues": "https://github.com/kr37/phpEval/php-eval/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "KR37",
+            "homepage": "https://github.com/kr37/phpEval"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "kr37\\phpeval\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "PHP Eval",
+        "handle": "php-eval",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/kr37/phpEval/php-eval/master/CHANGELOG.md",
+        "class": "kr37\\phpeval\\PhpEval"
+    }
+}
