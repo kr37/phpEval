@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PHP Eval plugin for Craft CMS 3.x
 
 1. Adds a twig filter to allow arbitrary PHP in Twig
@@ -43,3 +44,7 @@ Some things to do, and ideas for potential features:
 * Release it
 
 Brought to you by [KR37](https://github.com/kr37/phpEval)
+=======
+# phpEval
+CraftCMS plugin to allow arbitrary PHP in Twig and in a new field type
+>>>>>>> 8550690adafcdf872b2b13667e027dfcdb89e88e
